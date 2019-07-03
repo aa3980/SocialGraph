@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		43CECCD322B1CA970089700D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CECCD122B1CA970089700D /* LaunchScreen.storyboard */; };
 		43CECCDE22B1CA970089700D /* WeightedGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CECCDD22B1CA970089700D /* WeightedGraphTests.swift */; };
 		43CECCE922B1CA970089700D /* WeightedGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CECCE822B1CA970089700D /* WeightedGraphUITests.swift */; };
+		4C1890C470014FF1CBE8AC24 /* Pods_WeightedGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B861224B29C4A510D45BFC5E /* Pods_WeightedGraph.framework */; };
+		B9F1E0AC394E45BFC108DC0F /* Pods_WeightedGraphUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F67472F0F1B7AA10EA0DC33 /* Pods_WeightedGraphUITests.framework */; };
+		C8668E152BA658B2725561B2 /* Pods_WeightedGraphTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ABCC315E00D0E93625D22E /* Pods_WeightedGraphTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F67472F0F1B7AA10EA0DC33 /* Pods_WeightedGraphUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeightedGraphUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CECCC522B1CA960089700D /* WeightedGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightedGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CECCC822B1CA960089700D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43CECCCA22B1CA960089700D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		43CECCE422B1CA970089700D /* WeightedGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightedGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CECCE822B1CA970089700D /* WeightedGraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedGraphUITests.swift; sourceTree = "<group>"; };
 		43CECCEA22B1CA970089700D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C20E79C1177D9A6CC524FB /* Pods-WeightedGraphUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightedGraphUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeightedGraphUITests/Pods-WeightedGraphUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		967F7623B0EE7C1ED9C2FF2A /* Pods-WeightedGraphTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightedGraphTests.debug.xcconfig"; path = "Target Support Files/Pods-WeightedGraphTests/Pods-WeightedGraphTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9686FF7A5759D4D59EEAC42A /* Pods-WeightedGraphUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightedGraphUITests.release.xcconfig"; path = "Target Support Files/Pods-WeightedGraphUITests/Pods-WeightedGraphUITests.release.xcconfig"; sourceTree = "<group>"; };
+		991BB69DE79B4E034656EC0C /* Pods-WeightedGraphTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightedGraphTests.release.xcconfig"; path = "Target Support Files/Pods-WeightedGraphTests/Pods-WeightedGraphTests.release.xcconfig"; sourceTree = "<group>"; };
+		A147FA0638D54EB3AFC3DB85 /* Pods-WeightedGraph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightedGraph.release.xcconfig"; path = "Target Support Files/Pods-WeightedGraph/Pods-WeightedGraph.release.xcconfig"; sourceTree = "<group>"; };
+		B82922BF7BBA051B030FDB9F /* Pods-WeightedGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightedGraph.debug.xcconfig"; path = "Target Support Files/Pods-WeightedGraph/Pods-WeightedGraph.debug.xcconfig"; sourceTree = "<group>"; };
+		B861224B29C4A510D45BFC5E /* Pods_WeightedGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeightedGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ABCC315E00D0E93625D22E /* Pods_WeightedGraphTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeightedGraphTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1890C470014FF1CBE8AC24 /* Pods_WeightedGraph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8668E152BA658B2725561B2 /* Pods_WeightedGraphTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F1E0AC394E45BFC108DC0F /* Pods_WeightedGraphUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		423AEA140D87403F62400EEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B861224B29C4A510D45BFC5E /* Pods_WeightedGraph.framework */,
+				E9ABCC315E00D0E93625D22E /* Pods_WeightedGraphTests.framework */,
+				1F67472F0F1B7AA10EA0DC33 /* Pods_WeightedGraphUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43CECCBC22B1CA960089700D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				43CECCDC22B1CA970089700D /* WeightedGraphTests */,
 				43CECCE722B1CA970089700D /* WeightedGraphUITests */,
 				43CECCC622B1CA960089700D /* Products */,
+				5E26679912E870D84FC89B1E /* Pods */,
+				423AEA140D87403F62400EEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = WeightedGraphUITests;
 			sourceTree = "<group>";
 		};
+		5E26679912E870D84FC89B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B82922BF7BBA051B030FDB9F /* Pods-WeightedGraph.debug.xcconfig */,
+				A147FA0638D54EB3AFC3DB85 /* Pods-WeightedGraph.release.xcconfig */,
+				967F7623B0EE7C1ED9C2FF2A /* Pods-WeightedGraphTests.debug.xcconfig */,
+				991BB69DE79B4E034656EC0C /* Pods-WeightedGraphTests.release.xcconfig */,
+				80C20E79C1177D9A6CC524FB /* Pods-WeightedGraphUITests.debug.xcconfig */,
+				9686FF7A5759D4D59EEAC42A /* Pods-WeightedGraphUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43CECCED22B1CA970089700D /* Build configuration list for PBXNativeTarget "WeightedGraph" */;
 			buildPhases = (
+				5D3417AE47CA09E6A5A54192 /* [CP] Check Pods Manifest.lock */,
 				43CECCC122B1CA960089700D /* Sources */,
 				43CECCC222B1CA960089700D /* Frameworks */,
 				43CECCC322B1CA960089700D /* Resources */,
+				5A7D589861EB18314523A9B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43CECCF022B1CA970089700D /* Build configuration list for PBXNativeTarget "WeightedGraphTests" */;
 			buildPhases = (
+				362F524ED80F73B10B8F2BD5 /* [CP] Check Pods Manifest.lock */,
 				43CECCD522B1CA970089700D /* Sources */,
 				43CECCD622B1CA970089700D /* Frameworks */,
 				43CECCD722B1CA970089700D /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43CECCF322B1CA970089700D /* Build configuration list for PBXNativeTarget "WeightedGraphUITests" */;
 			buildPhases = (
+				8F898D959984642A1D5EDB5E /* [CP] Check Pods Manifest.lock */,
 				43CECCE022B1CA970089700D /* Sources */,
 				43CECCE122B1CA970089700D /* Frameworks */,
 				43CECCE222B1CA970089700D /* Resources */,
@@ -250,6 +294,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		362F524ED80F73B10B8F2BD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeightedGraphTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7D589861EB18314523A9B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeightedGraph/Pods-WeightedGraph-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeightedGraph/Pods-WeightedGraph-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeightedGraph/Pods-WeightedGraph-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3417AE47CA09E6A5A54192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeightedGraph-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F898D959984642A1D5EDB5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeightedGraphUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43CECCC122B1CA960089700D /* Sources */ = {
@@ -430,6 +560,7 @@
 		};
 		43CECCEE22B1CA970089700D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82922BF7BBA051B030FDB9F /* Pods-WeightedGraph.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +568,34 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"SwiftGraph\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajitakole.WeightedGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +606,7 @@
 		};
 		43CECCEF22B1CA970089700D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A147FA0638D54EB3AFC3DB85 /* Pods-WeightedGraph.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +624,7 @@
 		};
 		43CECCF122B1CA970089700D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967F7623B0EE7C1ED9C2FF2A /* Pods-WeightedGraphTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +645,7 @@
 		};
 		43CECCF222B1CA970089700D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991BB69DE79B4E034656EC0C /* Pods-WeightedGraphTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +666,7 @@
 		};
 		43CECCF422B1CA970089700D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C20E79C1177D9A6CC524FB /* Pods-WeightedGraphUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +686,7 @@
 		};
 		43CECCF522B1CA970089700D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9686FF7A5759D4D59EEAC42A /* Pods-WeightedGraphUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

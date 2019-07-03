@@ -1,0 +1,6 @@
+framework module Pods_WeightedGraphUITests {
+  umbrella header "Pods-WeightedGraphUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
